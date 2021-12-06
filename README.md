@@ -12,9 +12,8 @@
 #Cara memasang API INI
 
 1. Download atau clone project ini
-2. Download Dan Install XAMPP
-3. Jalankan apache dan MYSQL
-4. Import table.sql
-5. Install Laravel
-6. Composer install dan masuk ke project
-7. Setelah itu jalankan menggunakan php artisan serve
+2. Import table.sql ke phpmyadmin anda atau database anda
+3. Install Laravel
+4. Buka terminal / cmd masuk ke project dan jalankan composer install
+5. Setelah itu ubah file env sesuai nama database anda, username dan password anda
+6. jalankan php artisan serve di terminal atau cmd
